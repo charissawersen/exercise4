@@ -1,81 +1,76 @@
 .box {
-    font: 4rem Arial;
-    text-shadow: 1px 1px 2px black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    
+  font: 4rem Arial;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
 }
 .main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
 }
 #first {
-    background-color: #f44336;
-    flex: 49%;
-    height: 50vh;
-   
+  background-color: #f44336;
+  flex: 49%;
+  height: 50vh;
 }
 #second {
-    background-color: #ff9800;
-    flex: 49%;
-    height: 50vh;
+  background-color: #ff9800;
+  flex: 49%;
+  height: 50vh;
 }
 #third {
-    background-color: #FFEB3B;
-    flex: 49%;
-    height: 50vh;
+  background-color: #ffeb3b;
+  flex: 49%;
+  height: 50vh;
 }
 #fourth {
-    background-color: #8BC34A;
-    flex: 49%;
-    height: 50vh;
+  background-color: #8bc34a;
+  flex: 49%;
+  height: 50vh;
 }
 #fifth {
-    background-color: #2196f3;
-    flex: 49%;
-    height: 50vh;
+  background-color: #2196f3;
+  flex: 49%;
+  height: 50vh;
 }
 #sixth {
-    background-color: #9c27b0;
-    flex: 49%;
-    height: 50vh;
+  background-color: #9c27b0;
+  flex: 49%;
+  height: 50vh;
 }
 @media screen and (min-width: 600px) {
-    .main {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    #first {
-        flex: 32%;
-        height: 50vh;
-    }
-    #second {
-        flex: 32%;
-        height: 50vh;
-    }
-    #third {
-        flex: 32%;
-        height: 50vh;
-    }
-    #fourth {
-        flex: 32%;
-        height: 50vh;
-    }
-    #fifth {
-        flex: 32%;
-        height: 50vh;
-    }
-    #sixth {
-        flex: 32%;
-        height: 50vh;
-    }
-
+  .main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #first {
+    flex: 32%;
+    height: 50vh;
+  }
+  #second {
+    flex: 32%;
+    height: 50vh;
+  }
+  #third {
+    flex: 32%;
+    height: 50vh;
+  }
+  #fourth {
+    flex: 32%;
+    height: 50vh;
+  }
+  #fifth {
+    flex: 32%;
+    height: 50vh;
+  }
+  #sixth {
+    flex: 32%;
+    height: 50vh;
+  }
 }
-
-
